@@ -1,3 +1,4 @@
 #!/bin/sh
 
-moon check
+moon fmt
+moon check --target native
