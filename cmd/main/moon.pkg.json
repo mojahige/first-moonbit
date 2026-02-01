@@ -1,9 +1,12 @@
 {
   "is-main": true,
   "import": [
-    {
-      "path": "mojahige/my_moonbit_project",
-      "alias": "lib"
-    }
+    "moonbitlang/core/env",
+    "moonbitlang/core/math",
+    "moonbitlang/core/random",
+    "moonbitlang/core/buffer",
+    "moonbitlang/async",
+    "moonbitlang/async/stdio",
+    "moonbitlang/regexp"
   ]
 }
